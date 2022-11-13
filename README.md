@@ -1,2 +1,2 @@
 # Airport_Manager
-The system reads data about airports and companies from txt/bin files(if exists).There are an options for adding flights and airports, sorting and searching flights,and see all the data.
+A system implemented in C language. It reads data about airports (name, country and IATA code) and companies from txt/bin files(if exists). There are an options for adding flights and airports, sorting the flights using the C library function -"qsort" by time, date, origin IATA code of the airport or destination IATA code of the airport. In addition, In addition, you can search for a flight according to the parameter which they are sorted. The search is carried out using The C library function - "bsearch". Company details are printed using a variadic function.
